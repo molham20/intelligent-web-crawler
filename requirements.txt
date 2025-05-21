@@ -3,7 +3,6 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 lxml==4.9.3
 selenium==4.10.0
-playwright==1.36.0
 webdriver-manager==3.8.6
 pandas==2.0.3
 numpy==1.24.4
@@ -15,3 +14,18 @@ matplotlib==3.7.2
 xmltodict==0.13.0
 jupyter==1.0.0
 pytest==7.4.0
+greenlet>=3.0.0
+playwright>=1.40.0
+
+
+
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml>=4.9.0; python_version < "3.13"
+selenium==4.10.0
+playwright==1.40.0
+webdriver-manager==3.8.6
+pandas==2.0.3
+numpy==1.24.4
+streamlit==1.27.0
+python-dotenv==1.0.0
